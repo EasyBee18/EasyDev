@@ -5,11 +5,6 @@ import { defineConfig } from "vite"
 
 // https://vite.dev/config/
 export default defineConfig({
-  base: '/EasyDev/', 
+  base: "/EasyDev/",  // Must match repo name exactly
   plugins: [react(), tailwindcss()],
-  resolve: {
-    alias: {
-      "@": path.resolve(__dirname, "./src"),
-    },
-  },
-})
+});

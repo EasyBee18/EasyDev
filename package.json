@@ -1,8 +1,10 @@
+
 {
   "name": "dev-port",
   "private": true,
   "version": "0.0.0",
   "type": "module",
+"homepage": "https://easybee18.github.io/EasyDev",
   "scripts": {
     "dev": "vite",
     "build": "vite build",
