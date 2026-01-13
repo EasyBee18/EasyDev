@@ -8,3 +8,4 @@ export default defineConfig({
   base: "/EasyDev/",  // Must match repo name exactly
   plugins: [react(), tailwindcss()],
 });
+ 
